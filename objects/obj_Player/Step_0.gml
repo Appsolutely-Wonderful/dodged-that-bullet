@@ -2,6 +2,8 @@
 // You can write your code in this editor
 // Handle left/right movement
 if (!global.is_dead) {
+	last_x = x;
+	last_y = y;
 	if keyboard_check(vk_left)
 	{
 		next_x = x - global.player_speed;
@@ -20,10 +22,13 @@ if (!global.is_dead) {
 		}
 		x = next_x;
 	}
+	
+	if (x > last_x) {
+		image_xscale = -1;
+	} else if (x < last_x) {
+		image_xscale = 1;
+	}
 }
-
-// Handle falling
-
 
 // Handle jumping and falling
 if (jumping)

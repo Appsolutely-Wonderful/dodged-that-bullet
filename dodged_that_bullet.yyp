@@ -23,7 +23,7 @@
     {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},"order":6,},
     {"id":{"name":"sprite_Wall","path":"sprites/sprite_Wall/sprite_Wall.yy",},"order":0,},
     {"id":{"name":"sprite_UrizenTiles","path":"sprites/sprite_UrizenTiles/sprite_UrizenTiles.yy",},"order":1,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"arena","path":"rooms/arena/arena.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
@@ -37,7 +37,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"arena","path":"rooms/arena/arena.yy",},},
     {"roomId":{"name":"debug_room","path":"rooms/debug_room/debug_room.yy",},},
   ],
   "Folders": [

@@ -4,5 +4,9 @@ draw_self();
 
 // DEBUG ONLY
 if (room == debug_room) {
-	draw_sprite(sprite_verticalLine, 0, x - 4, y);
+	if (image_xscale == 1) {
+		draw_sprite(sprite_verticalLine, 0, x - 4, y);
+	} else if (image_xscale == -1) {
+		draw_sprite(sprite_verticalLine, 0, x + 4, y);
+	}
 }
