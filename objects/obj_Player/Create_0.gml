@@ -28,3 +28,13 @@ check_max_y_position = function () {
 at_jump_target = function () {
 	return y <= jump_target;
 }
+
+// Check if player object is using the "Attack" sprite
+is_attacking = function () {
+	return sprite_index == sprite_PlayerAttack;
+}
+
+// DEBUG
+if (room == debug_room) {
+	bullet_pos = "";
+}

@@ -12,3 +12,8 @@ if (global.is_dead) {
 	draw_text_transformed(get_screen_center_x(), get_screen_center_y(), "You Got SHOT", 0.5, 0.5, 0);
 	draw_text_transformed(get_screen_center_x(), get_screen_center_y() + 16, "Press Space to start over", 0.5, 0.5, 0);
 }
+
+// DEBUG CODE
+if (room == debug_room) {
+	draw_text(x, y - 10, bullet_pos);
+}
