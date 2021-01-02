@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"snd_jump","path":"sounds/snd_jump/snd_jump.yy",},"order":1,},
+    {"id":{"name":"obj_credits","path":"objects/obj_credits/obj_credits.yy",},"order":2,},
     {"id":{"name":"obj_debugSpawner","path":"objects/obj_debugSpawner/obj_debugSpawner.yy",},"order":7,},
     {"id":{"name":"obj_scorekeeper","path":"objects/obj_scorekeeper/obj_scorekeeper.yy",},"order":3,},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":0,},
@@ -13,9 +14,10 @@
     {"id":{"name":"sprite_collisionWallHorizontal","path":"sprites/sprite_collisionWallHorizontal/sprite_collisionWallHorizontal.yy",},"order":3,},
     {"id":{"name":"sprite_bullet","path":"sprites/sprite_bullet/sprite_bullet.yy",},"order":2,},
     {"id":{"name":"end_splash_room","path":"scripts/end_splash_room/end_splash_room.yy",},"order":0,},
+    {"id":{"name":"sprite_StartBtn","path":"sprites/sprite_StartBtn/sprite_StartBtn.yy",},"order":1,},
     {"id":{"name":"snd_bullet_hit","path":"sounds/snd_bullet_hit/snd_bullet_hit.yy",},"order":4,},
     {"id":{"name":"snd_shoot","path":"sounds/snd_shoot/snd_shoot.yy",},"order":0,},
-    {"id":{"name":"Sprite10","path":"sprites/Sprite10/Sprite10.yy",},"order":0,},
+    {"id":{"name":"sprite_Menu","path":"sprites/sprite_Menu/sprite_Menu.yy",},"order":0,},
     {"id":{"name":"room_main_menu","path":"rooms/room_main_menu/room_main_menu.yy",},"order":3,},
     {"id":{"name":"obj_SplashScreen","path":"objects/obj_SplashScreen/obj_SplashScreen.yy",},"order":0,},
     {"id":{"name":"sprite_logo","path":"sprites/sprite_logo/sprite_logo.yy",},"order":0,},
@@ -24,9 +26,13 @@
     {"id":{"name":"obj_horizontalWall","path":"objects/obj_horizontalWall/obj_horizontalWall.yy",},"order":4,},
     {"id":{"name":"splash_screen","path":"rooms/splash_screen/splash_screen.yy",},"order":2,},
     {"id":{"name":"obj_BulletFactory","path":"objects/obj_BulletFactory/obj_BulletFactory.yy",},"order":1,},
+    {"id":{"name":"sprite_Btn","path":"sprites/sprite_Btn/sprite_Btn.yy",},"order":2,},
     {"id":{"name":"debug_room","path":"rooms/debug_room/debug_room.yy",},"order":1,},
     {"id":{"name":"obj_initGame","path":"objects/obj_initGame/obj_initGame.yy",},"order":2,},
+    {"id":{"name":"obj_MainMenu","path":"objects/obj_MainMenu/obj_MainMenu.yy",},"order":0,},
+    {"id":{"name":"obj_start_button","path":"objects/obj_start_button/obj_start_button.yy",},"order":1,},
     {"id":{"name":"sprite_PlayerAttack","path":"sprites/sprite_PlayerAttack/sprite_PlayerAttack.yy",},"order":6,},
+    {"id":{"name":"snd_menu_music","path":"sounds/snd_menu_music/snd_menu_music.yy",},"order":5,},
     {"id":{"name":"snd_sword","path":"sounds/snd_sword/snd_sword.yy",},"order":3,},
     {"id":{"name":"sprite_verticalLine","path":"sprites/sprite_verticalLine/sprite_verticalLine.yy",},"order":7,},
     {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},"order":6,},
@@ -47,9 +53,9 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"splash_screen","path":"rooms/splash_screen/splash_screen.yy",},},
+    {"roomId":{"name":"room_main_menu","path":"rooms/room_main_menu/room_main_menu.yy",},},
     {"roomId":{"name":"room_arena","path":"rooms/room_arena/room_arena.yy",},},
     {"roomId":{"name":"debug_room","path":"rooms/debug_room/debug_room.yy",},},
-    {"roomId":{"name":"room_main_menu","path":"rooms/room_main_menu/room_main_menu.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -70,6 +76,7 @@
     {"folderPath":"folders/Objects/splash_screen.yy","order":8,"resourceVersion":"1.0","name":"splash_screen","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/splash_screen.yy","order":2,"resourceVersion":"1.0","name":"splash_screen","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/main_menu.yy","order":9,"resourceVersion":"1.0","name":"main_menu","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/main_menu.yy","order":9,"resourceVersion":"1.0","name":"main_menu","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
