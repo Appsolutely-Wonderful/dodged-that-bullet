@@ -12,7 +12,7 @@ function get_next_spawn_time() {
 	return current_time + (spawn_speed * 1000);
 }
 
-spawn_time = get_next_spawn_time() + 5000;
+spawn_time = 0;
 show_help = true;
 
 function get_random_spawn_point() {

@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 // Spawn a bullet every spawn_time seconds
-if !global.is_dead {
+if !global.is_dead && !show_help{
 	if (current_time > spawn_time) {
 		show_help = false;
 		// Update next spawn time

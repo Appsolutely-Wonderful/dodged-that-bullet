@@ -23,6 +23,10 @@ check_max_y_position = function () {
 	if (y >= 200) {
 		y = floor_y;
 	}
+	
+	if (y >= floor_y) {
+		jumping = false;
+	}
 }
 
 at_jump_target = function () {

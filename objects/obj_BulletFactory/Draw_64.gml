@@ -9,5 +9,5 @@ if (show_help) {
 	draw_text_transformed(get_screen_center_x(), get_screen_center_y() - 12, "Use arrow keys to move", 0.5, 0.5, 0);
 	draw_text_transformed(get_screen_center_x(), get_screen_center_y(), "Jump with spacebar", 0.5, 0.5, 0);
 	draw_text_transformed(get_screen_center_x(), get_screen_center_y() + 12, "Swing sword with CTRL", 0.5, 0.5, 0);
-	draw_text_transformed(get_screen_center_x(), get_screen_center_y() + 24, "Round starts in " + start_time, 0.5, 0.5, 0);
+	draw_text_transformed(get_screen_center_x(), get_screen_center_y() + 24, "Press Enter to begin", 0.5, 0.5, 0);
 }
