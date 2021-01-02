@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sprite_Menu",
-    "path": "sprites/sprite_Menu/sprite_Menu.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -21,16 +18,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"parent":{"name":"obj_MainMenu","path":"objects/obj_MainMenu/obj_MainMenu.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"parent":{"name":"obj_CreditsController","path":"objects/obj_CreditsController/obj_CreditsController.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "main_menu",
-    "path": "folders/Objects/main_menu.yy",
+    "name": "Credits",
+    "path": "folders/Objects/Credits.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_MainMenu",
+  "name": "obj_CreditsController",
   "tags": [],
   "resourceType": "GMObject",
 }
