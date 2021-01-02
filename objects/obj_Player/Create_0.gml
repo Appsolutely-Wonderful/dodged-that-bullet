@@ -38,6 +38,16 @@ is_attacking = function () {
 	return sprite_index == sprite_PlayerAttack;
 }
 
+play_sword_sound = function () {
+	var snd = audio_play_sound(snd_sword, 10, 0);
+	audio_sound_gain(snd, 0.40, 0);
+}
+
+play_jump_sound = function () {
+	var snd = audio_play_sound(snd_jump, 10, 0);
+	audio_sound_gain(snd, 0.20, 0);
+}
+
 // DEBUG
 if (room == debug_room) {
 	bullet_pos = "";

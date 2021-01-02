@@ -21,7 +21,7 @@ if (is_attacking()) {
 		player_got_hit();
 	} else {
 		global.bullets_dodged += 1;
-		// TODO: Add sword hit sound effect
+		audio_play_sound(snd_bullet_hit, 20, 0);
 	}
 } else {
 	player_got_hit();

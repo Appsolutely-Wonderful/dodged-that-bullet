@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if (!global.is_dead) {
 	if (!jumping) {
-		audio_play_sound(snd_jump, 10, 0);
+		play_jump_sound();
 		jumping = true;
 		jump_spd = jump_init_spd;
 	}
